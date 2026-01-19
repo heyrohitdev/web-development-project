@@ -1,11 +1,25 @@
-# web-development-project
-I 'm make this repository for web development  project . I am a student learning web development.
+# Web Project
+This repository contains my web development projects . 
+I am learnig HTML , CSS and Javascript.
 
-## Topics 
-1. layouts use
-2. Table designing
-3. Form designing
+## About
+I am a student and beginner  in web development .
+This repository is created to practice and showcase my web development.
 
-##Purpose
-. learning , progress with build confidence 
+## projects
+- 01 project - portfolio website (HTML , CSS)
+- More project will added soon
 
+## Technologies Used 
+- HTML
+- CSS
+- Javascript(learing)
+
+##  Folder Structure
+Each project is a organized  in a seperate folder.
+
+## Status 
+learning and progress  🚀
+
+
+  
