@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <style>
+        #form {
+            background-color: rgb(219, 213, 213);
+            border: 3px solid rgb(114, 113, 113);
+            width: 350px;
+            border-radius: 15px;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 20px;
+        }
+
+        h1 {
+            display: inline;
+            padding-left: 100px;
+            padding-bottom: 30px;
+            color: grey;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        input {
+            font-size: 16px;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            border: 2px solid black;
+            font-weight: 700;
+        }
+
+        #feedback textarea {
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        #occupation {
+            margin: 10px;
+        }
+
+        select {
+            font-weight: bold;
+        }
+
+        select:hover {
+            border-radius: 5px;
+            background-color: rgb(177, 173, 173);
+        }
+
+        #interest {
+            margin: 10px;
+        }
+
+        button {
+
+            text-align: center;
+            background-color: yellow;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 15px 50px;
+        }
+
+        button:hover {
+            font-size: 15px;
+        }
+
+        #feedback {
+            font-size: 18px;
+           font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="form">
+        <h1>Form</h1>
+        <br>
+        <lebel id="name"></lebel>
+        Name: <input type="text" placeholder="Enter your full name" id="name">
+        <br>
+        Class: <input type="number" placeholder="Enter your class">
+        <br>
+        Email: <input type="email" required placeholder="Enter your Email">
+        <br>
+        Gender: <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br>
+
+        <lebel id="occupation">Occupation</lebel>
+        <select id="occupation">
+            <option value="">selct occupation</option>
+            <option value="">Student</option>
+            <option value="">Worker</option>
+            <option value="">Unemployed</option>
+        </select>
+        <br>
+
+        <lebel id="interest">Interest: </lebel>
+        <select id="interest">
+            <option value="">Select Interest</option>
+            <option value="Technology">Technology</option>
+            <option value="Study">Study</option>
+            <option value="Gaming">Gaming</option>
+            <option value="">All of these</option>
+        </select>
+        <br>
+
+        <lebel id="feedback">Feedback</lebel>
+        <textarea id="feedback" rows="4"></textarea>
+        <br>
+
+        <button type="submit">submit</button>
+
+    </form>
+</body>
+
+</html>
