@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Calculator</title>
+    <style>
+        .main{
+            width: 285px;
+            height: 300px;
+            border: 5px solid grey;
+            text-align: center;
+            margin: 100px auto;
+            box-shadow: inset 0px 0px 10px grey;
+            border-radius: 5px;
+        }
+        #input{
+            width: 255px;
+            height: 40px;
+            font-size: 22px;
+            text-align: center;
+            margin: 10px;
+            font-weight: bold;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: 2px solid grey;
+            background-color: rgb(250, 247, 247);
+            border-radius: 5px;
+        }
+        button{
+            width: 50px;
+            height: 40px;
+            font-size: 20px;
+            margin: 3px;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button:hover{
+            transition: all;
+            transition-duration: 1s;
+            background-color: rgb(212, 206, 206);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <input type="text" id="input" disabled>
+        
+            <button onclick="press('9')">9</button>
+            <button onclick="press('8')">8</button>
+            <button onclick="press('7')">7</button>
+            <button onclick="press('/')">/</button>
+
+            <button onclick="press('6')">6</button>
+            <button onclick="press('5')">5</button>
+            <button onclick="press('4')">4</button>
+            <button onclick="press('*')">*</button>
+
+            <button onclick="press('3')">3</button>
+            <button onclick="press('2')">2</button>
+            <button onclick="press('1')">1</button>
+            <button onclick="press('-')">-</button>
+
+            <button onclick="press('.')">.</button>
+            <button onclick="press('0')">0</button>
+            <button onclick="ClearDisplay()">AC</button>
+            <button onclick="press('+')">+</button>
+            
+            <button onclick="calculate()">=</button>
+    </div>
+
+    <script>
+        let input = document.getElementById('input');
+
+        function press(value){
+            input.value += value;
+        }
+        function calculate(){
+            input.value = eval(input.value);
+        }
+        function ClearDisplay(){
+            input.value = "";
+        }
+    </script>
+
+</body>
+</html>
