@@ -1,0 +1,56 @@
+.main {
+    width: 350px;
+    margin: 15px auto;
+    padding: 15px;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    border: 5px solid rgb(110, 108, 108);
+    box-shadow: inset 0px 0px 20px rgb(189, 185, 185);
+    border-radius: 20px;
+}
+
+.main:hover {
+    box-shadow: inset 0px 0px 20px red;
+}
+
+#input {
+    width: 280px;
+    height: 25px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#btn {
+    width: 50px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    box-shadow: inset 0px 0px 5px grey;
+    margin: 5px auto;
+}
+
+#list {
+    width: 280px;
+    border: 2px solid rgb(241, 238, 238);
+    border-radius: 15px;
+    background-color: rgb(160, 156, 156);
+}
+
+ul li {
+    font-weight: 600;
+    color: rgb(7, 7, 7);
+    padding: 3px;
+}
+
+button {
+    margin-left: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
