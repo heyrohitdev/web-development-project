@@ -65,6 +65,7 @@
             <button onclick="press('0')">0</button>
             <button onclick="ClearDisplay()">AC</button>
             <button onclick="press('+')">+</button>
+            <button onclick="percentage('%')">%</button>
             
             <button onclick="calculate()">=</button>
     </div>
@@ -75,6 +76,9 @@
         function press(value){
             input.value += value;
         }
+        function percentage(){
+                input.value = parseFloat(input.value) / 100;
+            }
         function calculate(){
             input.value = eval(input.value);
         }
@@ -84,4 +88,5 @@
     </script>
 
 </body>
+
 </html>
