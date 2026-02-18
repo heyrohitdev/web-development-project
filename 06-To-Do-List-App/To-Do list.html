@@ -23,7 +23,13 @@
     
             let li = document.createElement('li');
             li.innerText = input.value;
-    
+
+             // Toggle complete
+            li.onclick = function () {
+                li.classList.toggle("completed");
+            };
+
+            // Delete button
             let deletebtn = document.createElement('button');
             deletebtn.innerText = "Delete"
 
@@ -39,4 +45,5 @@
 
     </script>
 </body>
+
 </html>
