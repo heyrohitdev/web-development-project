@@ -8,6 +8,12 @@ This repository is created to practice and showcase my web development.
 
 ## projects
 - 01 project - portfolio website (HTML , CSS)
+- 02 project - gym website
+- 03 project - professional level form
+- 04 project - responsice website
+- 05 project - simple calculator
+- 06 project - to do list app
+- 07 project - swg game
 - More project will added soon
 
 ## Technologies Used 
