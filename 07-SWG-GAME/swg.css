@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+#hello{
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.buttons button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+    cursor: pointer;
+}
+.buttons button:hover{
+    border-radius: 10px;
+    background-color:rgb(241, 241, 6);
+    font-weight: bold;
+}
+#result{
+    width: 300px;
+    border: 3px solid rgb(240, 233, 233);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(41, 40, 40);
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.score{
+    font-size: 18px;
+    font-weight: bold;
+}
+#reset{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 10px red;
+    font-size: 16px;
+    font-weight: bold;
+}
