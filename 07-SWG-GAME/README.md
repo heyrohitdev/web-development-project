@@ -1,26 +1,86 @@
-# SWG GAME
+# 🎮 Snake Water Gun Game (SWG)
 
-I made this game for fun with practice, it has HTML, CSS and JavaScipt.
-- SWG Game = Snake Water Gun Game.
+A simple browser-based Snake Water Gun game built using HTML, CSS, and JavaScript.
 
-## About
-This is very useful for you because i have used Dom, Mathobject and many more in this project.
+This project was created to practice DOM manipulation, game logic, and JavaScript fundamentals.
 
+---
 
-## Features
-- Take random value from computer
-- Take input from user
-- Win condition
-- Reset function
+## 🚀 Live Demo
 
-## Technology Used
-- HTML
-- CSS
-- JavaScript (Mathobject, Dom)
+https://heyrohitdev.github.io/web-development-project/07-SWG-GAME/
 
-## Purpose
-- practice Math-Object
-- Strong Dom manipulation
-- Understanding game logic
+---
 
+## 📌 Features
 
+- 🎲 Random computer choice using Math.random()
+- 👤 User input via buttons
+- 🏆 Win / Lose / Draw logic
+- 🔢 Score tracking system
+- 🔄 Reset game functionality
+- 💻 Clean and responsive UI
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (DOM Manipulation, Math Object)
+
+---
+
+## 🧠 Game Logic
+
+Rules:
+
+- Snake drinks Water → Snake Wins
+- Gun shoots Snake → Gun Wins
+- Water damages Gun → Water Wins
+- Same choice → Draw
+
+The computer generates a random number between 0–2 to simulate its move.
+
+---
+
+## 📂 Project Structure
+
+```
+07-SWG-GAME/
+│── index.html
+│── script.js
+│── swg.css
+│── README.md
+```
+
+---
+
+## 🎯 Purpose of This Project
+
+- Practice JavaScript fundamentals
+- Improve DOM manipulation skills
+- Understand conditional logic
+- Learn basic game development concepts
+
+---
+
+## 📸 Screenshot
+
+![SWG Game Screenshot] (SWG_Screenshot.png)
+
+---
+
+## ✨ Future Improvements
+
+- Add sound effects
+- Add animations
+- Add max score limit
+- Convert to React version
+
+---
+
+## 👨‍💻 Author
+
+Rohit Chaudhary 
+GitHub: https://github.com/yourusername
