@@ -83,4 +83,4 @@ The computer generates a random number between 0–2 to simulate its move.
 ## 👨‍💻 Author
 
 Rohit Chaudhary 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/heyrohitdev
