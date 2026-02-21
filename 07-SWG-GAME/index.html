@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWG-Game</title>
+    <link rel="stylesheet" href="swg.css">
+</head>
+
+<body>
+    <h1 id="hello"></h1>
+
+    <div class="buttons">
+        <button onclick="playGame(0)">🔫 Gun</button>
+        <button onclick="playGame(1)">🐍 Snake</button>
+        <button onclick="playGame(2)">💧 Water</button>
+    </div>
+
+    <div id="result"></div>
+  
+    <div class="score">
+        <p>You: <span id="userScore">0</span></p>
+        <p>Computer: <span id="computerScore">0</span></p>
+    </div>
+
+    <button id="reset" onclick="resetgame() ">Reset</button>
+  
+    <script src="script.js"></script>
+</body>
+
+</html>
