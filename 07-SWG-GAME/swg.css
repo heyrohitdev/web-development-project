@@ -36,10 +36,12 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
 }
+
 .score{
     font-size: 18px;
     font-weight: bold;
 }
+
 #reset{
     width: 80px;
     height: 30px;
