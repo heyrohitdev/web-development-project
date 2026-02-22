@@ -10,7 +10,7 @@ let computerScore = 0;
 // MAIN GAME FUNCTION
 function playGame(user){
     let result = document.getElementById('result');
-    let computer = Math.floor(Math.random() * 3);  // Random value input from computer
+    let computer = Math.floor(Math.random() * 3);      // Random value input from computer
     
     // DRAW CONDITION
     if(user===computer){
@@ -26,7 +26,7 @@ function playGame(user){
         (user==1 && computer==2) ||
         (user==2 && computer==0)
     ){
-        userScore++         // Score incriment logic
+        userScore++               // Score incriment logic
         document.getElementById('userScore').innerText = userScore;
         
         result.innerHTML = `
@@ -37,7 +37,7 @@ function playGame(user){
 
     // COMPUTER WINS 
     else {
-        computerScore++    // Score incriment logic
+        computerScore++          // Score incriment logic
         document.getElementById('computerScore').innerText = computerScore;
 
         result.innerHTML = `
@@ -56,4 +56,5 @@ function resetgame(){
 
     document.getElementById('result').innerHTML = "Reset Game✅"
 }
+
 
