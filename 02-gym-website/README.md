@@ -14,6 +14,8 @@ You can see my gym website.
 - CSS (Basic)
 
 ---
+## Screenshot
+![Gym Website Screenshot] (Gym_Screenshot.png)
 
 ## Use Tags
 - section
