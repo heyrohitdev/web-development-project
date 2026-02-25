@@ -1,26 +1,76 @@
-# Portfolio Website
+# 🌐 Portfolio Website
 
-This is my first portfolio website project.
+This is my first personal portfolio website project created to practice basic web development skills.
 
-## Purpose
-This project is created to practice basic web development using
-HTML and CSS.
+---
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript (will be added later)
+## 📌 Project Purpose
 
-## Features
-- Simple layout
-- Navigation bar
-- Image section
-- Basic styling using CSS
+The main goal of this project is to understand:
+
+- HTML structure
+- CSS styling
+- Layout design
+- Navigation bar creation
+- Image section handling
+
+This project is part of my web development learning journey.
+
+---
+
+## 🛠 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (planned for future enhancement)
+
+---
+
+## ✨ Features
+
+- Simple and clean layout
+- Navigation bar (Home, About, Services, Contact)
+- Image section with circular images
+- Basic responsive structure
+- Organized folder structure
+
+---
+
+## 📂 Folder Structure
+
+```
+01-portfolio/
+│── index.html
+│── style.css
+│── portfolio.png
+│── README.md
+```
+
+---
 
 ## 📸 Screenshot
 
-![Portfolio Screenshot] (Portfolio.png)
+![Portfolio Screenshot](./portfolio.png)
 
+---
 
-## Status
-In progress 🚧
+## 🚀 How to Run
+
+1. Download or clone this repository.
+2. Open the `index.html` file in your browser.
+3. Explore the portfolio layout.
+
+---
+
+## 🔮 Future Improvements
+
+- Add JavaScript functionality
+- Improve responsiveness
+- Add animations
+- Improve UI design
+
+---
+
+## 📌 Status
+
+🟢 In Progress (Learning Project)
