@@ -17,5 +17,10 @@ HTML and CSS.
 - Image section
 - Basic styling using CSS
 
+## 📸 Screenshot
+
+![Portfolio Screenshot] (Portfolio.png)
+
+
 ## Status
 In progress 🚧
