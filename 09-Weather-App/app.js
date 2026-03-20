@@ -22,7 +22,7 @@ app.get("/weather", async (req, res) => {
   const city = req.query.city
 
   // Your OpenWeather API key
-  const apiKey = "YOUR_API_KEY"
+  const apiKey = "7d061184c72d5428dc65c8c66c3caba7"
 
   // API URL (fetch weather data)
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
