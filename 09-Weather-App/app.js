@@ -1,30 +1,43 @@
-const express = require("express")           // Input express module
-const fetch = require("node-fetch")          // Input fetch module
+// Import required modules
+const express = require("express")
 
-const app = express()                        // Input app module
+// Create express app
+const app = express()
 
+// Set view engine as Pug
 app.set("view engine", "pug")
 
+// Serve static files (CSS, images)
+app.use(express.static("public"))
+
+// Home route (default page)
 app.get("/", (req, res) => {
-    res.render("index")
+  res.render("index")
 })
 
+// Weather route (handles city search)
 app.get("/weather", async (req, res) => {
 
-    const city = req.query.city
+  // Get city from query (user input)
+  const city = req.query.city
 
-    const apiKey = "7d061184c72d5428dc65c8c66c3caba7"           // Weather App API key 
+  // Your OpenWeather API key
+  const apiKey = "YOUR_API_KEY"
 
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`  // Weather url
+  // API URL (fetch weather data)
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
 
-    const response = await fetch(url)
+  // Fetch data from API
+  const response = await fetch(url)
 
-    const data = await response.json()
+  // Convert response to JSON
+  const data = await response.json()
 
-    res.render("index", {weather: data, city: city})
-
+  // Render index.pug and send data
+  res.render("index", { weather: data, city: city })
 })
 
-app.listen(3000, () => {                      
-    console.log("Server started")
+// Start server
+app.listen(3000, () => {
+  console.log("Server started on http://localhost:3000")
 })
