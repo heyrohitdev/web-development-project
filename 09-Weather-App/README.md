@@ -15,7 +15,7 @@ A simple Weather App built using Node.js, Express, and Pug.
 - CSS
 
 ## 📸 Screenshot
-![Weather App](Weather-App.png)
+![Weather App](./Weather-App.png)
 
 ## ▶️ How to Run
 1. Clone the repository
