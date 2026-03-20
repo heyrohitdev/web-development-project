@@ -1,23 +1,36 @@
+//- Main HTML structure
 doctype html
 html
   head
     title Weather App
-    style 
-      include ../views/style.css
+    //- Link CSS file
+    link(rel="stylesheet", href="/style.css")
 
   body
     .container
+      //- App title
       h1 Weather App
       p.subtitle Check weather of any city
 
+      //- Search form
       form(action="/weather" method="get")
         input(type="text" name="city" placeholder="Enter city")
         button Search
 
+      //- Show weather data only if available
       if weather
         .card
-          h2 Weather of #{city}
+          //- City name (from API)
+          h2 Weather of #{weather.name}
+
+          //- Weather icon
           img(src=`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`)
+
+          //- Temperature
           h3 #{weather.main.temp} °C
+
+          //- Humidity
           p Humidity: #{weather.main.humidity} %
-          p Condition: #{weather.weather[0].description}s
+
+          //- Weather condition
+          p Condition: #{weather.weather[0].description}
