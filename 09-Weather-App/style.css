@@ -1,0 +1,64 @@
+/* Body styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  text-align: center;
+}
+
+/* Container spacing */
+.container {
+  margin-top: 50px;
+}
+
+/* Title styling */
+h1 {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+/* Subtitle */
+.subtitle {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input field */
+input {
+  padding: 10px;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+/* Button styling */
+button {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Weather card */
+.card {
+  margin: 30px auto;
+  padding: 20px;
+  width: 250px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Weather icon */
+img {
+  width: 80px;
+}
