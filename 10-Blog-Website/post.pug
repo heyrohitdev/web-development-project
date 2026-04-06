@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title= post.title
+    link(rel="stylesheet", href="/style.css")
+  body
+
+    a(href="/") ← Back
+
+    h1= post.title
+    p.date= post.date
+    pre= post.content
