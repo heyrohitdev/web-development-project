@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    title Admission Form
+    link(rel="stylesheet", href="/form.css")
+  body
+    .container
+      .form-box
+        h2 Admission Form
+
+        form(action="/contact" method="POST")
+          .input-group
+            label Name
+            input(type="text" name="name" placeholder="Enter your name" required)
+
+          .input-group
+            label Class
+            input(type="text" name="class" placeholder="Enter your class" required)
+
+          .input-group
+            label DOB
+            input(type="date" name="dob" required)
+
+          .input-group
+            label Phone
+            input(type="number" name="number" placeholder="Enter your number" required)
+
+          .input-group
+            label Email
+            input(type="email" name="email" placeholder="Enter your email" required)
+
+          .input-group
+            label Address
+            textarea(name="address")
+
+          button(type="submit") Submit
