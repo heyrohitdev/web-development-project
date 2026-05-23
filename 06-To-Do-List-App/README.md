@@ -14,9 +14,9 @@ For example:
 - CSS
 - JavaScript (DOM Manipulation)
 
-## Live Demo
+## 🚀 Live Demo
 
-[Click Here To View Project](https://heyrohitdev.github.io/web-development-project/06-To-Do-List-App/)
+https://heyrohitdev.github.io/web-development-project/07-SWG-GAME/
 
 ## 🎯 Purpose
 - Practice DOM manipulation
