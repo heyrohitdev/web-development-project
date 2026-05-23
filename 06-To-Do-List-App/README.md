@@ -16,7 +16,7 @@ For example:
 
 ## 🚀 Live Demo
 
-https://heyrohitdev.github.io/web-development-project/07-SWG-GAME/
+https://heyrohitdev.github.io/web-development-project/06-To-Do-List-App/
 
 ## 🎯 Purpose
 - Practice DOM manipulation
