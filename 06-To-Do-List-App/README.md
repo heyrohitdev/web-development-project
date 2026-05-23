@@ -14,6 +14,10 @@ For example:
 - CSS
 - JavaScript (DOM Manipulation)
 
+## Live Demo
+
+[Click Here To View Project](https://heyrohitdev.github.io/web-development-project/06-To-Do-List-App/)
+
 ## 🎯 Purpose
 - Practice DOM manipulation
 - Improve JavaScript logic
