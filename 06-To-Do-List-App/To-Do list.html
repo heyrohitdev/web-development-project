@@ -1,49 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do list</title>
-    <link rel="stylesheet" href="To-Do list.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo-App</title>
 </head>
-<body>
-    <div class="main">
-    <input type="text" id="input" placeholder="Enter your task">
-    <button onclick="addtask()" id="btn">add</button>
 
-    <ul id="list"></ul>
+<body>
+
+    <h1>To-Do App</h1>
+    <div class="main">
+        <input type="text" id="input" placeholder="Enter your task">
+        <button id="btn">Add</button>
+        <ul id="list">
+        </ul>
     </div>
 
-    <script>
-        let input = document.getElementById('input')
-        let list = document.getElementById('list')
 
-        function addtask(){
-            if(input.value === "") return;
-    
-            let li = document.createElement('li');
-            li.innerText = input.value;
-
-             // Toggle complete
-            li.onclick = function () {
-                li.classList.toggle("completed");
-            };
-
-            // Delete button
-            let deletebtn = document.createElement('button');
-            deletebtn.innerText = "Delete"
-
-            deletebtn.onclick = function(){
-                li.remove();
-            }
-            li.appendChild(deletebtn)
-            list.appendChild(li)
-
-            input.value = ""
-        }
-
-
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
