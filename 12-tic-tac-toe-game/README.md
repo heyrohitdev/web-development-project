@@ -38,7 +38,7 @@ The first player to align three identical symbols horizontally, vertically, or d
 ---
 ## 🚀 Live Demo
 
-[Play Game](https://heyrohitdev.github.io/web-development-project/tic-tac-toe-game/)
+https://heyrohitdev.github.io/web-development-project/12-tic-tac-toe-game/
 
 ---
 
