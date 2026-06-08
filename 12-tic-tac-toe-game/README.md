@@ -12,7 +12,7 @@ The first player to align three identical symbols horizontally, vertically, or d
 
 ---
 
-## Features
+## ✨ Features
 
 * Two-player gameplay
 * Winner detection system
@@ -24,7 +24,7 @@ The first player to align three identical symbols horizontally, vertically, or d
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 * HTML5
 * CSS3
@@ -40,10 +40,10 @@ The first player to align three identical symbols horizontally, vertically, or d
 
 ---
 
-## Live Demo
+## 🚀 Live Demo
 
 ```text
-https://heyrohitdev.github.io/web-development-project/tic-toc-toe-game
+https://heyrohitdev.github.io/web-development-project/tic-tac-toe-game
 ```
 
 ---
