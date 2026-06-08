@@ -42,10 +42,8 @@ The first player to align three identical symbols horizontally, vertically, or d
 
 ## Live Demo
 
-> After enabling GitHub Pages, replace the link below with your actual project URL.
-
 ```text
-https://your-username.github.io/tic-tac-toe-javascript/
+https://heyrohitdev.github.io/web-development-project/tic-toc-toe-game
 ```
 
 ---
