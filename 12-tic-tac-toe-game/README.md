@@ -33,18 +33,12 @@ The first player to align three identical symbols horizontally, vertically, or d
 ---
 
 ## Project Screenshot
-
-```markdown
-![Tic Tac Toe Screenshot](screenshots/project-preview.png)
-```
+![Tic Tac Toe Screenshot](project-preview.png)
 
 ---
-
 ## 🚀 Live Demo
 
-```text
-https://heyrohitdev.github.io/web-development-project/tic-tac-toe-game
-```
+[Play Game](https://heyrohitdev.github.io/web-development-project/tic-tac-toe-game)
 
 ---
 
