@@ -1,0 +1,171 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background: #38bdf8;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    margin-top: 40px;
+}
+
+/* Heading */
+h1 {
+    text-decoration: underline;
+    margin-bottom: 5px;
+    font-family: "Ewert", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #051b2d;
+}
+
+.Hello {
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Game Buttons */
+.gameBtn {
+    padding: 12px 25px;
+    font-size: 25px;
+    border: none;
+    border-radius: 12px;
+    background: #cf00e6;
+    color: white;
+    margin: 8px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+
+    transition: all 0.25s ease;
+}
+
+/* Hover Effect */
+.gameBtn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Click Effect */
+.gameBtn:active {
+    transform: scale(0.95);
+}
+
+/* Result Card */
+.result {
+    width: fit-content;
+    margin: 30px auto;
+
+    padding: 18px 25px;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    border: 3px solid gray;
+    border-radius: 15px;
+
+    background: #fb923c;
+    box-shadow: inset 0px 0px 15px white;
+
+    animation: pop 0.3s ease;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Score Card */
+.score {
+    width: fit-content;
+
+    margin: 20px auto;
+
+    padding: 15px 30px;
+
+    border: 3px solid gray;
+    border-radius: 15px;
+
+    background: #0f172a;
+    color: white;
+
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+
+    transition: all 0.3s ease;
+}
+
+/* Reset Button */
+#reset {
+    margin-top: 20px;
+
+    padding: 12px 25px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 12px;
+
+    background: #1A237E;
+    color: white;
+
+    cursor: pointer;
+
+    transition: all 0.25s ease;
+}
+
+#reset:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#reset:active {
+    transform: scale(0.95);
+}
+
+/* Win */
+.win {
+    color: lime;
+    background-color: green;
+}
+
+/* Lose */
+.lose {
+    color: red;
+    background-color: #d7645e;
+}
+
+/* Draw */
+.draw {
+    color: yellow;
+    background-color: #6f6f2a;
+}
+
+.hide {
+    display: none;
+}
+
+/* Animation */
+@keyframes pop {
+
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+}
