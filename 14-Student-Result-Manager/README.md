@@ -24,7 +24,7 @@ A simple and user-friendly web application built with **HTML, CSS and JavaScript
 
 ## 🚀 Live Demo
 
-([View Live Demo](https://heyrohitdev.github.io/web-development-project/14-Student-Result-Manager/))
+🔗 **[View Live Demo](https://heyrohitdev.github.io/web-development-project/14-Student-Result-Manager/)**
 
 ---
 
